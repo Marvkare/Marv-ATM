@@ -1,0 +1,162 @@
+.box{
+  width: 650px;
+  height: 600px;
+  background:  #626567;
+  border-left: 10px solid #979A9A;
+  border-top: 10px solid #4D5656;
+  border-right: 10px solid #979A9A;
+  border-radius: 5px;
+}
+/* screen*/
+.box_screen{
+  width: 450px;
+  height: 340px;
+  background:#717D7E;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-right: 5px solid #95A5A6;
+  border-left: 5px solid #95A5A6;
+  border-top: 5px solid #BFC9CA;
+  border-bottom: 5px solid #BFC9CA;
+  border-radius: 2px
+}
+
+.screen{
+ width: 430px;
+ height: 320px;
+ background: #5d6d7e ;
+ position: absolute;
+ top: 10px;
+ left: 10px;
+
+}
+
+.informacion{
+  width: 400px;
+  height: 150px;
+  background: #5499C7;
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display:flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+}
+
+.input{
+  width: 400px;
+  height: 120px;
+  background: #5499C7;
+  border-radius: 3px;
+  position: absolute;
+  top: 180px;
+  left: 10px
+}
+
+/* screen*/
+
+.box_{
+  width: 140px;
+  height: 340px;
+  background:  #979A9A ;
+  top: 30px;
+  left: 505px;
+  position: absolute;
+  border-left: 5px solid #A6ACAF;
+  border-top: 5px solid #839192;
+  border-right: 5px solid #A6ACAF;
+  border-bottom: 5px solid #839192;
+}
+
+.resultado>a{
+  color: white;
+}
+
+.resultado{
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.input_center{
+  margin:50px;
+}
+
+/* Keyboard */
+.keyboard{
+  width:500px;
+  height: 200px;
+  position: absolute;
+  top: 390px;
+  left: 70px;
+
+}
+.numbers{
+  display: grid;
+  grid-template-columns: 300px 0px 12px;
+
+
+}
+.numbers{
+  top: 10px;
+  left: 100px;
+  position: absolute;
+}
+.keys{
+
+}
+
+.button-numbers{
+display: flex;
+flex-direction: column;
+border-left: 5px solid #A6ACAF;
+border-top: 5px solid #839192;
+border-right: 5px solid #A6ACAF;
+border-bottom: 5px solid #839192;
+}
+
+.fila1{
+display: flex;
+justify-content: space-around;
+}
+.fila2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.fila3 {
+  display:flex;
+  justify-content: space-around;
+}
+.fila4{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.key-number{
+  border: 2px solid #ABB2B9;
+  width: 100%;
+  height: 100%;
+  background:#34495E;
+  display: flex;
+  justify-content: space-around;
+
+}
+.key-number:hover{
+  border: 2px solid #D6EAF8;
+  background: #546473;
+}
+
+.key-number>a{
+
+  text-decoration: none;
+  color:white;
+  font-size: 200%;
+}
+.box_upper{
+  background:  #f1948a ;
+
+}
